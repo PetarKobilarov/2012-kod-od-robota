@@ -6,11 +6,7 @@
 #define activateInterrupts()	sei()	
 #define disableInterrupts()		cli()
 
-void timer1Init(void);
-void timer3Init(void);
-
-extern void debaunsingZaTaster(void);
-extern char protocniDelay(unsigned long);
-extern void countTime(void);
+void Timer1_Init(void);
+void Timer3_Init(void);
 
 #endif

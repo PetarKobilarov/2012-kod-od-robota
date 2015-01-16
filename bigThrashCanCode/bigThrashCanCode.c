@@ -5,7 +5,6 @@
 #include "system.h"
 #include "kretanje.h"
 #include "funkcije.h"
-#include "lcd.h"
 
 int main(void)
 {

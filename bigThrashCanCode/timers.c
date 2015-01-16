@@ -1,7 +1,7 @@
 #include <avr/io.h>
 #include "timers.h"
 
-void timer1Init(void)
+void Timer1_Init(void)
 {
 	TCCR1A=0;
 	TCCR1B=(1<<WGM12) | (1<<CS10);
@@ -12,7 +12,7 @@ void timer1Init(void)
 	SREG |= 0x80;	
 }
 
-void timer3Init(void)
+void Timer3_Init(void)
 {
 	TCCR3A=0;
 	TCCR3B=(1<<WGM32) | (1<<CS30);
